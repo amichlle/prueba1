@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;800&display=swap');
+
+/*Azul: #41c1fe
+Fondo oscuro: #383838
+Fondo gris: #f3f3f3
+Títulos: #3c3838
+Subtitulo: #888585
+Texto general #898989*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #898989;
+	background-color: #f3f3f3;
+}
+#home .f1{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+#home .f2{
+	background-image: url("../img/slider1_slide1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+#home .f3{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.buttons{
+	padding-top: 60px;
+}
+.btn-blue{
+	font-family: 'Oswald', sans-serif;
+	background: #41c1fe;
+	color: #fff !important;
+	padding: 15px 35px !important;
+	border: 0;
+	border-radius: 25px;
+	font-size: 15px;
+	font-weight: 700 !important;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+}
+.btn-blue:hover, .btn-white:hover{
+	transform: scale(0.9);
+	transition: all 0.3s ease-in-out;
+}
+#navbar .btn-blue{
+	padding: 12px 35px !important;
+}
+#features .btn-blue{
+	padding: 7px 20px !important;
+	font-size: 10px;
+}
+#shoes .btn-blue, .btn-white{
+	padding: 12px 18px !important;
+	font-size: 13px;
+}
+.btn-white{
+	font-family: 'Oswald', sans-serif;
+	background: #fff;
+	color: #41c1fe !important;
+	padding: 15px 30px !important;
+	border: 0;
+	border-radius: 25px;
+	font-size: 15px;
+	font-weight: 700 !important;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+}
+#home .titulo{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+	font-size: 60px;
+}
+#home h3{
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+}
+#home .men{
+	text-align: right;
+}
+
+.titulo{
+	font-family: 'Oswald', sans-serif;
+	font-size: 55px;
+	color:  #3c3838;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.subtitulo{
+	font-size: 20px;
+	color: #888585;
+	font-weight: 400;
+	margin-bottom: 60px;
+	line-height: 1.5;
+}
+
+#features h2{
+	text-align: left;
+	color: #fff !important;
+	padding-top: 40%;
+	font-size: 40px;
+	font-weight: 600 !important;
+	margin: 0 auto 40px;
+	width: 50%;
+}
+#features p{
+	padding-top: 5%;
+}
+#features .imen{
+	background-image: url("../img/men-running.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#features .iwomen{
+	background-image: url("../img/women-runnig.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#features .blue-sale{
+	background-color: #41c1fe;
+}
+#features h3{
+	padding-bottom: 50px;
+}
+#features .ff1{
+	margin-left: 150px;
+}
+#features .feature{
+	align-content: center;
+	background-color: #fff;
+	background-size: auto;
+	padding: 35px 10px;
+	margin: 0 12px;
+}
+#features .titulo-products{
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	color:  #3c3838;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0 auto 20px;
+	width: 60%;
+}
+#features .price{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.section{
+	padding: 8% 0;
+}
+
+#shoes{
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 15%;
+}
+#shoes .titulo{
+	color: #fff;
+	font-size: 30px;
+	text-align: left;
+}
+#shoes .s-price{
+	color: #41c1fe;
+}
+#shoes .blue-txt{
+	color: #41c1fe;
+}
+#shoes .btn-white{
+	
+}
+
+#features2 h2{
+	text-align: left;
+	color: #fff !important;
+	padding-top: 40%;
+	font-size: 40px;
+	font-weight: 600 !important;
+	margin: 0 auto 40px;
+	width: 50%;
+}
+#features2 p{
+	padding-top: 5%;
+}
+#features2 .imen{
+	background-image: url("../img/service-1-370x330.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#features2 .iwomen{
+	background-image: url("../img/service-2-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#features2 .blue-sale{
+	background-image: url("../img/service-3-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#features2 h3{
+	padding-bottom: 50px;
+}
+#features2 .ff1{
+	margin-left: 150px;
+}
+#features2 .feature{
+	align-content: center;
+	background-color: #fff;
+	background-size: auto;
+	padding: 35px 10px;
+	margin: 0 12px;
+}
+#features2 .titulo-products{
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	color:  #3c3838;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0 auto 20px;
+	width: 60%;
+}
+#features2 .price{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+footer{
+	background-color: #383838;
+}
+footer hr{
+	color: #fff;
+}
+footer .subtitulo{
+	color: #fff;
+	font-size: 12px;
+}
+.redes{
+	padding: 50px 0;
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
